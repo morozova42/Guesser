@@ -3,7 +3,6 @@ using System.Text.Json;
 
 namespace GuessTheNumber
 {
-	//SRP - только с настройкой работает
 	public static class SettingsHelper
 	{
 		private static Settings _instance;

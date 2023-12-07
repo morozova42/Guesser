@@ -1,9 +1,9 @@
 ﻿namespace GuessTheNumber
 {
-	//OCP? - сюда можно ещё добавить вывод сообщения-подсказки, почему строка инвалид
 	public interface IValidator
 	{
 		dynamic Result { get; }
+		string ValidateMessage { get; }
 		public bool Invalid(string message);
 	}
 }

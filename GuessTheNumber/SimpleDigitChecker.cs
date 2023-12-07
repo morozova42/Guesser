@@ -1,6 +1,5 @@
 ﻿namespace GuessTheNumber
 {
-	//ISP - разделено угадывание и проверка возможности играть дальше
 	public class SimpleDigitChecker : IChecker, IGuesser
 	{
 		private int _count = 0;

@@ -6,8 +6,6 @@
 		private IChecker _checker;
 		private IGuesser _guesser;
 
-		//DIP - игра может сменить проверку ввода и проверку допустимости угадываний без изменений кода
-		//OCP? - не проверяет сам, что будем угадывать, а спрашивает у валидатора и угадывалки
 		internal GameMode(IValidator validator, IChecker checker, IGuesser guesser)
 		{
 			_validator = validator;
